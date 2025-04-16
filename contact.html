@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alan Thompson Motor Engineers | Contact</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="assets/images/ATLOGO.png" alt="Alan Thompson Motor Engineers" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="servicing.html">Servicing</a></li>
+          <li><a href="repairs.html">Repairs</a></li>
+          <li><a href="adas.html">ADAS Calibration</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <section class="page-content contact-page">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>Please feel free to reach out for any inquiries or to book an appointment.</p>
+      <div class="contact-info">
+        <p><strong>Phone:</strong> 0161 485 6835</p>
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:alanthompsoneng@btconnect.com">alanthompsoneng@btconnect.com</a>
+        </p>
+        <p><strong>Address:</strong> Anfield Rd, Cheadle Hulme, Stockport, Cheshire, SK8 5EX</p>
+      </div>
+
+      <!-- Google Maps Embed -->
+      <div class="map-container">
+        <!-- Replace the src below with your actual Google Maps embed URL if needed -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2375.121335284877!2d-2.1771395841940706!3d53.40910498000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487ba3787d1a7a4f%3A0xee81a5db23f5db88!2sCheadle%20Hulme%20SK8%205EX!5e0!3m2!1sen!2suk!4v1610000000000" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <form action="submit_form.php" method="post">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Alan Thompson Motor Engineers. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
